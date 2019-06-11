@@ -28,6 +28,6 @@ func TestConvertToTestRun(t *testing.T) {
 		return
 	}
 
-	expected := `go run -v -run TestOne|TestTwo|TestThree`
+	expected := `go test -v -run 'TestOne|TestTwo|TestThree'`
 	as.Equal(expected, result)
 }
