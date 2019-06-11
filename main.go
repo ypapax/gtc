@@ -13,7 +13,7 @@ import (
 
 func main() {
 	glog3.AlsoToStderr(true)
-	glog3.SetVerbosity(4)
+	glog3.SetVerbosity(1)
 	if err := func() error {
 		cl, err := clipboard.ReadAll()
 		if err != nil {
@@ -25,7 +25,11 @@ func main() {
 			glog3.Error(err)
 			return err
 		}
-		clipboard.WriteAll(result)
+		if err := clipboard.WriteAll(result); err != nil {
+			glog3.Error(err)
+			return err
+		}
+		glog3.V(1).Infof("copied to clipboard: %+v", result)
 		return nil
 	}(); err != nil {
 		glog3.Error(err)
