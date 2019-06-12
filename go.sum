@@ -1,0 +1,6 @@
+github.com/atotto/clipboard v0.1.2 h1:YZCtFu5Ie8qX2VmVTBnrqLSiU9XOWwqNRmdT3gIQzbY=
+github.com/atotto/clipboard v0.1.2/go.mod h1:ZY9tmq7sm5xIbd9bOK4onWV4S6X0u6GY7Vn0Yu86PYI=
+github.com/ypapax/glog3 v0.0.0-20190607052111-7c1066f97e19 h1:szUrdbUP0gaBjLf0iijbH2DCUCs6eFKRDcDy50K36x8=
+github.com/ypapax/glog3 v0.0.0-20190607052111-7c1066f97e19/go.mod h1:4mOfvE52j//KUj3WYwnzN1vLHfK4WAk1k9EdM8dPSXw=
+github.com/ypapax/helper3 v0.0.0-20190611061800-edeef70ef36a h1:RrjFSgku79ht6okY6iw5iETzi487sTP07rnLUHtkPJ0=
+github.com/ypapax/helper3 v0.0.0-20190611061800-edeef70ef36a/go.mod h1:8f0YpeM0aZ6WbodyQFjvX666+xEsnR0sF51rjMckM34=
